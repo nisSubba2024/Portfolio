@@ -15,6 +15,8 @@
     --primary-bg-color: #fff;
     --secondary-bg-color: #fff;
     --box-text-color: #000;
+    --toggle-bg-color: #000;
+    --toggle-inner-color: #fff;
 
     /* Dark mode */
     /*--main-text-color: #fff;*/
@@ -26,6 +28,9 @@
     --main-font-family: "Rubik", sans-serif;
     --box-border-radius: 3px;
     --main-link-color: #ff8906;
+
+    --transition-duration: 0.3s; /* Smooth transition time */
+
 }
 
 /* Universal resets */
@@ -216,3 +221,29 @@ hr, .box-line {
     color: var(--main-link-color);
 
 }
+
+/* Styling toggle button for dark and light mode */
+
+.toggle-container {
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.toggle-btn {
+    width: 100%;
+    height: 100%;
+    background-color: var(--toggle-bg-color);
+    border-radius: 2rem;
+    position: relative;
+}
+
+.toggle-switch {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--toggle-inner-color);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+
