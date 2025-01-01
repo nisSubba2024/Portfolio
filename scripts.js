@@ -1,9 +1,12 @@
-/* /////////////////////////////////////////////
-    Copyright by : Nishan Subba
-    Github: @nisShan2024
-    Date: Dec 28, 2024
-//////////////////////////////////////////////*/
-
+/*
+ * //////////////////////////////////////////////////////////////////////
+ *      PROGRAM: PORTFOLIO/SCRIPTS.JS
+ *      Written by Nishan Subba
+ *      GitHub: @nisSubba2024
+ *      Purpose: Logic and functionalities for the portfolio website
+ *      Last Date Modified: Dec 31, 2024
+ * //////////////////////////////////////////////////////////////////////
+ */
 const toggleBtn = document.querySelector(".toggle-btn");
 const root = document.documentElement;
 let darkModeState = false; // current if light mode
